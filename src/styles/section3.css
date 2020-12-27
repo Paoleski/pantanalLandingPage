@@ -7,7 +7,7 @@
 
 .section3__container {
   width: 90%;
-  margin: 30px auto;
+  margin: 50px auto;
 }
 
 .section3__sliderContainer {
@@ -16,6 +16,7 @@
   display:flex;
   flex-wrap:nowrap;
   gap:15px;
+  height:70vh;
 }
 
 .section3__info {
@@ -26,4 +27,8 @@
     .section3__sliderContainer {
         flex-wrap:wrap;
     }
+
+    .section3__sliderContainer {
+        height:fit-content;
+      }
 }

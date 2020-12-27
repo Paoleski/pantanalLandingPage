@@ -23,7 +23,7 @@ function Section3() {
             style={{
               display: 'flex',
               width: '100%',
-              height: '70vh',
+              height: '100%',
             }}
           ></ReactCompareSlider>
           <ReactCompareSlider
@@ -33,7 +33,7 @@ function Section3() {
             style={{
               display: 'flex',
               width: '100%',
-              height: '70vh',
+              height: '100%',
             }}
           ></ReactCompareSlider>
         </div>

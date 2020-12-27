@@ -1,4 +1,5 @@
 import React from 'react';
+import map from '../img/pantanalmapap.jpg'
 import '../styles/section2.css';
 
 function Section2() {
@@ -9,7 +10,7 @@ function Section2() {
         <div className="section2__left">
           <img
             className="section2__map"
-            src="http://www.invivo.fiocruz.br/media/pantanalmapap.jpg"
+            src={map}
             alt=""
           ></img>
         </div>
@@ -30,7 +31,7 @@ function Section2() {
           </p>
           <p>
             Due to its rich biodiversity, Pantanal was considered by UNESCO  as
-            a World Heritage Site.
+            a World Heritage Site. 
           </p>
         </div>
       </div>
