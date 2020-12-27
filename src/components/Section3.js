@@ -19,6 +19,7 @@ function Section3() {
           <ReactCompareSlider
             itemOne={<ReactCompareSliderImage src={image1} alt="one" />}
             itemTwo={<ReactCompareSliderImage src={image2} alt="two" />}
+            onlyHandleDraggable={true}
             style={{
               display: 'flex',
               width: '100%',
@@ -28,6 +29,7 @@ function Section3() {
           <ReactCompareSlider
             itemOne={<ReactCompareSliderImage src={image4} alt="one" />}
             itemTwo={<ReactCompareSliderImage src={image3} alt="two" />}
+            onlyHandleDraggable={true}
             style={{
               display: 'flex',
               width: '100%',
